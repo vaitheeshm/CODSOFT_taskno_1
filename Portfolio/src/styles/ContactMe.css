@@ -1,0 +1,82 @@
+.Contact_me {
+    background-image: url(../Images//bgForContactme.jpg);
+    background-repeat: no-repeat;
+    min-height: 90vh;
+    background-size: cover;
+    /* width: 100%; */
+}
+
+.Contact_me h1 {
+    padding-top: 30px;
+    text-align: center;
+    color: white;
+}
+
+.Contact_me .Contact_me_container {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.Contact_me_container .Contact_me_links{
+    flex-basis: 50%;
+    align-self: center;
+}
+
+.Contact_me_container .Contact_me_links .Contact_me_links_desc{
+    color: white;
+    text-align: center;
+}
+
+.Contact_me_container .Contact_me_links .media_buttons {
+    flex-basis: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+
+.Contact_me_container .Contact_me_links .media_buttons a {
+    font-size: 30px;
+    height: 50px;
+    width: 50px;
+    margin: 0 6px;
+    border-radius: 24px;
+    color: white;
+    background-color: rgb(217, 185, 3);
+    text-align: center;
+}
+
+.Contact_me_container .Contact_form {
+    text-align: center;
+    height: fit-content;
+    flex-basis: 50%;
+    display: flex;
+    justify-content: center;
+    border-left: 3px solid white;
+}
+
+.Contact_me_container .Contact_form table {
+    padding: 50px 50px;
+    border-radius: 18px;
+    background-color: rgba(135, 207, 235, 0.362);
+    color: white;
+    
+}
+
+.Contact_me_container .Contact_form table tr{
+    height: 50px;
+}
+
+.Contact_me_container .Contact_form table tr input{
+    height: 30px;
+    width: 210px;
+    border-radius: 20px;
+}
+
+.Contact_me_container .Contact_form table tr textarea{
+    height: 70px;
+    width: 210px;
+    border-radius: 20px;
+}

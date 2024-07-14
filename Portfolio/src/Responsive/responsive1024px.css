@@ -1,0 +1,5 @@
+@media screen and (min-width:769px) {
+    .Nav_Bar .Menu_btn {
+        display: none;
+    }
+}

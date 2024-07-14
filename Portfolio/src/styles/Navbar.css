@@ -1,0 +1,81 @@
+
+
+/* ----------------------------- TITLE ----------------------------- */
+
+.Nav_Bar{
+    height: 60px;
+    color: white;
+    background-color: var(--main_color1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Nav_Bar .Title{
+    display: flex;
+    margin-left: 15px;
+}
+
+.Nav_Bar .Title #Portfolio{
+    color: var(--main_color2);
+}
+
+/* ------------------------------------------------------------ */
+
+
+
+
+/* -----------------------NAV LINKS---------------------------- */
+
+.Nav_Bar .Nav_links ul{
+    display: flex;
+    margin-right: 20px;
+}
+
+.Nav_Bar .Nav_links ul li{
+    list-style: none;
+    font-size: 20px;
+    margin: 0 12px;
+}
+
+.Nav_Bar .Nav_links ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+
+/* ------------------------------------------------------------ */
+
+
+
+/* -----------------------MENU BUTTON---------------------------- */
+
+.Nav_Bar .Menu_btn{
+    display: block;
+}
+
+.Nav_Bar .Menu_btn .line{
+    height: 4px;
+    width: 30px;
+    background-color: white;
+    border-radius: 15px;
+    margin: 3px 0;
+    margin-right: 15px;
+}
+
+/* ------------------------------------------------------------ */
+
+
+
+/* -----------------------DROP DOWN MENU---------------------------- */
+
+.Drop_down{
+    display: block;
+    text-align: center;
+    background-color: var(--main_color1);
+}
+
+.Drop_down ul li a{
+    color:white;
+    text-decoration: none;
+}

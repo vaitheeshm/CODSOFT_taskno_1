@@ -1,0 +1,73 @@
+@media screen and (max-width:768px) {
+
+    .Nav_links {
+        display: none;
+    }
+
+    .Landing_page .img_div img {
+        height: 400px;
+        width: 400px;
+    }
+
+    .Landing_page .img_div {
+        flex-basis: fit-content;
+        text-align: center;
+    }
+
+    .Landing_page {
+        flex-direction: column;
+        /* padding: 0px; */
+    }
+
+    .Landing_page .desc {
+        margin-top: 60px;
+    }
+
+    .About_me {}
+
+    .About_me .About_me_detail {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .About_me .About_me_paragragh {
+        margin: auto 20px;
+        padding-top: 40px;
+        flex-basis: 50%;
+        border-top: 3px black solid;
+        border-left: 0;
+    }
+
+    .Skills div div img {
+        height: 100px;
+        width: 100px;
+    }
+
+    .Contact_me .Contact_me_container {
+        /* margin-top: 60px; */
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .Contact_me_container .Contact_form {
+        border-left: 0;
+        border-top: 3px solid white;
+    }
+
+    .Contact_me_container .Contact_me_links {
+        width: fit-content;
+        flex-basis: content;
+        align-self: center;
+    }
+
+    .Contact_me_container .Contact_me_links .media_buttons {
+        flex-basis: auto;
+        margin-bottom: 30px;
+    }
+
+    .Contact_me_container .Contact_form table {
+        padding: 40px 10px;
+        margin-top: 30px;
+    }
+}

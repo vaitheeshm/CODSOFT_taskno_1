@@ -1,0 +1,21 @@
+/* GOOGLE FONTS */
+@import url("https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap");
+
+
+/* UNIVERSAL PROPERTIES */
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Poetsen One", sans-serif;
+}
+
+:root {
+    /* VARIABLE DECLARATION */
+    --main_color1: #34417b;
+    --main_color2: gold;
+}
+
+body {
+    width: 100%;
+    max-height: 100%;
+}

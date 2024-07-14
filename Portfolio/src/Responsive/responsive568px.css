@@ -1,0 +1,24 @@
+@media screen and (max-width:568px) {
+    .Landing_page .img_div img{
+        height: 300px;
+        width: 300px;
+    }
+
+    .About_me .About_me_detail img{
+        height: 250px;
+        width: 250px;
+        padding-right: 0;
+        padding-bottom: 40px;
+    }
+
+    .About_me .About_me_paragragh{
+        padding-left: 0;
+        padding-bottom: 20px;
+    }
+
+    .Skills div div img{
+        height: 70px;
+        width: 70px;
+        margin: 10px 20px;
+    }
+}

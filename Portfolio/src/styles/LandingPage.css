@@ -1,0 +1,38 @@
+.Landing_page {
+    background-color: var(--main_color1);
+    color: white;
+    display: flex;
+    padding: 50px 0;
+    min-height: 90vh;
+}
+
+.Landing_page .img_div img {
+    height: 500px;
+    width: 500px;
+}
+
+.Landing_page .img_div {
+    flex-basis: 50%;
+    text-align: center;
+}
+
+.Landing_page .desc {
+    margin-top: 120px;
+    flex-basis: 50%;
+    text-align: center;
+}
+
+.Landing_page .desc .desc_4 {
+    color: var(--main_color2)
+}
+
+.Landing_page .desc a button {
+    padding: 10px 20px;
+    font-family: "Poetsen One";
+    color: black;
+    background-color: gold;
+    border-radius: 8px;
+    border: 2px black solid;
+    cursor: pointer;
+    margin-top: 50px;
+}

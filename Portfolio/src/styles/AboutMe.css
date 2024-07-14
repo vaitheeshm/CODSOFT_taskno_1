@@ -1,0 +1,28 @@
+
+.About_me{
+    background-color: white;
+    min-height: 90vh;
+}
+
+.About_me h1{
+    text-align: center;
+}
+
+.About_me .About_me_detail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.About_me .About_me_detail img{
+    height: 400px;
+    width: 400px;
+    padding-right: 40px;
+    flex-basis: 50%;
+}
+.About_me .About_me_paragragh{
+    padding-left: 40px;
+    flex-basis: 50%;
+    border-left: 3px black solid;
+}
